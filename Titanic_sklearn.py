@@ -6,6 +6,7 @@ import pandas as pd
 import numpy as np
 import os
 import tensorflow as tf
+import imblearn
 
 # Import datasets
 train_df = pd.read_csv("train.csv") 
